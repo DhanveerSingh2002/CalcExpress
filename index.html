@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="icon" href="calc.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcExpress | Home</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="bar">
+        <input id="textArea" class="input" readonly type="text"/>
+    </div>
+    <div id="calculate">
+        <div class="calculator">
+            <div class="row">
+                <button class="buttons">7</button>
+                <button class="buttons">8</button>
+                <button class="buttons">9</button>
+                <button class="buttons operators" title="Divide">/</button>
+            </div>
+            <div class="row">
+                <button class="buttons">4</button>
+                <button class="buttons">5</button>
+                <button class="buttons">6</button>
+                <button class="buttons operators" title="Multiply">*</button>
+            </div>
+            <div class="row">
+                <button class="buttons">1</button>
+                <button class="buttons">2</button>
+                <button class="buttons">3</button>
+                <button class="buttons operators" title="Subtract">-</button>
+            </div>
+            <div class="row">
+                <button class="buttons">0</button>
+                <button class="buttons" title="Decimal">.</button>
+                <button id="clear" title="Clear">C</button>
+                <button class="buttons operators" title="Add">+</button>
+            </div>
+        </div>
+        <button id="evaluate">Calculate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
